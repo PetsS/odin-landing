@@ -64,13 +64,13 @@ header p,
   padding-right: 10px;
 }
 
-.cta-btn-container {
+.btn-signup-container {
   display: flex;
   justify-content: flex-start;
   margin-top: 6px;
 }
 
-.cta-btn {
+.btn-signup {
   width: auto;
   font-weight: 600;
   padding: 6px 30px;
@@ -149,3 +149,45 @@ header p,
 .item-quote-author p {
   font-weight: 600;
 }
+
+/* Call To Action area */
+
+.main-cta-container {
+  background-color: #f9faf8;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-inline: 100px;
+  align-items: center;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+  padding-inline: 60px;
+  border-radius: 8px;
+  background-color: #3882f6;
+}
+
+.cta-text-container {
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+}
+
+.btn-cta-container {
+min-width: 130px;
+}
+
+.btn-cta {
+  font-weight: 600;
+  padding: 6px 30px;
+  border-radius: 8px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+
