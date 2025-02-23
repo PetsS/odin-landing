@@ -64,19 +64,18 @@ header p,
   padding-right: 10px;
 }
 
-.btn-signup {
+.cta-btn-container {
+  display: flex;
+  justify-content: flex-start;
   margin-top: 6px;
-  width: 80px;
-  height: auto;
-  padding: 6px 14px;
-  border-radius: 6px;
-  border: none;
-  color: #f9faf8;
-  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
 }
 
-.btn-signup:focus {
-  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
-    0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
-    0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+.cta-btn {
+  width: auto;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  color: #f9faf8;
+  background: #3882F6;
+  text-decoration: none; /* this removes the underline of the link */
 }
