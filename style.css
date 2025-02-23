@@ -49,7 +49,6 @@ header p,
   padding-left: 10px;
 }
 
-
 /* flexbox for header body */
 
 .header-body {
@@ -78,6 +77,47 @@ header p,
   border-radius: 8px;
   border: none;
   color: #f9faf8;
-  background: #3882F6;
+  background: #3882f6;
   text-decoration: none; /* this removes the underline of the link */
+}
+
+/* main area */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-info-title h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.main-info-container {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.item-container {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.item-img {
+width: 120px;
+height: 120px;
+border: 2px solid #3882f6;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.item-text {
+  text-align: center;
 }
