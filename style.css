@@ -30,11 +30,8 @@ header h1 {
   color: #f9faf8;
 }
 
-.img-logo {
-  width: 200px;
-}
-
 /* flexbox for header menu */
+
 .header-menu {
   display: flex;
   justify-content: space-between;
@@ -80,6 +77,17 @@ header h1 {
   color: #f9faf8;
   background: #3882f6;
   text-decoration: none; /* this removes the underline of the link */
+}
+
+.header-body-img {
+  flex: 1, 1, auto;
+  height: 200px;
+  width: 600px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* main area */
